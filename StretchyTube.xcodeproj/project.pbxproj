@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CD41CD2936A25D00065892 /* StretchyTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */; };
+		B5CD41CF2936A25D00065892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41CE2936A25D00065892 /* ContentView.swift */; };
+		B5CD41D12936A25D00065892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD41D02936A25D00065892 /* Assets.xcassets */; };
+		B5CD41D42936A25D00065892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD41D32936A25D00065892 /* Preview Assets.xcassets */; };
+		B5CD41DE2936A25D00065892 /* StretchyTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41DD2936A25D00065892 /* StretchyTubeTests.swift */; };
+		B5CD41E82936A25D00065892 /* StretchyTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */; };
+		B5CD41EA2936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5CD41DA2936A25D00065892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CD41C12936A25C00065892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CD41C82936A25C00065892;
+			remoteInfo = StretchyTube;
+		};
+		B5CD41E42936A25D00065892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CD41C12936A25C00065892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CD41C82936A25C00065892;
+			remoteInfo = StretchyTube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5CD41C92936A25D00065892 /* StretchyTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeApp.swift; sourceTree = "<group>"; };
+		B5CD41CE2936A25D00065892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5CD41D02936A25D00065892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5CD41D32936A25D00065892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5CD41D92936A25D00065892 /* StretchyTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD41DD2936A25D00065892 /* StretchyTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeTests.swift; sourceTree = "<group>"; };
+		B5CD41E32936A25D00065892 /* StretchyTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeUITests.swift; sourceTree = "<group>"; };
+		B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CD41C62936A25C00065892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41D62936A25D00065892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41E02936A25D00065892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CD41C02936A25C00065892 = {
+			isa = PBXGroup;
+			children = (
+				B5CD41CB2936A25D00065892 /* StretchyTube */,
+				B5CD41DC2936A25D00065892 /* StretchyTubeTests */,
+				B5CD41E62936A25D00065892 /* StretchyTubeUITests */,
+				B5CD41CA2936A25D00065892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CD41CA2936A25D00065892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41C92936A25D00065892 /* StretchyTube.app */,
+				B5CD41D92936A25D00065892 /* StretchyTubeTests.xctest */,
+				B5CD41E32936A25D00065892 /* StretchyTubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CD41CB2936A25D00065892 /* StretchyTube */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */,
+				B5CD41CE2936A25D00065892 /* ContentView.swift */,
+				B5CD41D02936A25D00065892 /* Assets.xcassets */,
+				B5CD41D22936A25D00065892 /* Preview Content */,
+			);
+			path = StretchyTube;
+			sourceTree = "<group>";
+		};
+		B5CD41D22936A25D00065892 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41D32936A25D00065892 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5CD41DC2936A25D00065892 /* StretchyTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41DD2936A25D00065892 /* StretchyTubeTests.swift */,
+			);
+			path = StretchyTubeTests;
+			sourceTree = "<group>";
+		};
+		B5CD41E62936A25D00065892 /* StretchyTubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */,
+				B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */,
+			);
+			path = StretchyTubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CD41C82936A25C00065892 /* StretchyTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD41ED2936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTube" */;
+			buildPhases = (
+				B5CD41C52936A25C00065892 /* Sources */,
+				B5CD41C62936A25C00065892 /* Frameworks */,
+				B5CD41C72936A25C00065892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchyTube;
+			productName = StretchyTube;
+			productReference = B5CD41C92936A25D00065892 /* StretchyTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5CD41D82936A25D00065892 /* StretchyTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD41F02936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTubeTests" */;
+			buildPhases = (
+				B5CD41D52936A25D00065892 /* Sources */,
+				B5CD41D62936A25D00065892 /* Frameworks */,
+				B5CD41D72936A25D00065892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CD41DB2936A25D00065892 /* PBXTargetDependency */,
+			);
+			name = StretchyTubeTests;
+			productName = StretchyTubeTests;
+			productReference = B5CD41D92936A25D00065892 /* StretchyTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5CD41E22936A25D00065892 /* StretchyTubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD41F32936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTubeUITests" */;
+			buildPhases = (
+				B5CD41DF2936A25D00065892 /* Sources */,
+				B5CD41E02936A25D00065892 /* Frameworks */,
+				B5CD41E12936A25D00065892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CD41E52936A25D00065892 /* PBXTargetDependency */,
+			);
+			name = StretchyTubeUITests;
+			productName = StretchyTubeUITests;
+			productReference = B5CD41E32936A25D00065892 /* StretchyTubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CD41C12936A25C00065892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B5CD41C82936A25C00065892 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B5CD41D82936A25D00065892 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B5CD41C82936A25C00065892;
+					};
+					B5CD41E22936A25D00065892 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B5CD41C82936A25C00065892;
+					};
+				};
+			};
+			buildConfigurationList = B5CD41C42936A25C00065892 /* Build configuration list for PBXProject "StretchyTube" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5CD41C02936A25C00065892;
+			productRefGroup = B5CD41CA2936A25D00065892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CD41C82936A25C00065892 /* StretchyTube */,
+				B5CD41D82936A25D00065892 /* StretchyTubeTests */,
+				B5CD41E22936A25D00065892 /* StretchyTubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CD41C72936A25C00065892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD41D42936A25D00065892 /* Preview Assets.xcassets in Resources */,
+				B5CD41D12936A25D00065892 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41D72936A25D00065892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41E12936A25D00065892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CD41C52936A25C00065892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD41CF2936A25D00065892 /* ContentView.swift in Sources */,
+				B5CD41CD2936A25D00065892 /* StretchyTubeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41D52936A25D00065892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD41DE2936A25D00065892 /* StretchyTubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD41DF2936A25D00065892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD41EA2936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift in Sources */,
+				B5CD41E82936A25D00065892 /* StretchyTubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5CD41DB2936A25D00065892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CD41C82936A25C00065892 /* StretchyTube */;
+			targetProxy = B5CD41DA2936A25D00065892 /* PBXContainerItemProxy */;
+		};
+		B5CD41E52936A25D00065892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CD41C82936A25C00065892 /* StretchyTube */;
+			targetProxy = B5CD41E42936A25D00065892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5CD41EB2936A25D00065892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5CD41EC2936A25D00065892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5CD41EE2936A25D00065892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StretchyTube/Preview Content\"";
+				DEVELOPMENT_TEAM = RVZKP45394;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5CD41EF2936A25D00065892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StretchyTube/Preview Content\"";
+				DEVELOPMENT_TEAM = RVZKP45394;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5CD41F12936A25D00065892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVZKP45394;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StretchyTube";
+			};
+			name = Debug;
+		};
+		B5CD41F22936A25D00065892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVZKP45394;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StretchyTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StretchyTube";
+			};
+			name = Release;
+		};
+		B5CD41F42936A25D00065892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVZKP45394;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StretchyTube;
+			};
+			name = Debug;
+		};
+		B5CD41F52936A25D00065892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RVZKP45394;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangercove.StretchyTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StretchyTube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CD41C42936A25C00065892 /* Build configuration list for PBXProject "StretchyTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD41EB2936A25D00065892 /* Debug */,
+				B5CD41EC2936A25D00065892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD41ED2936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD41EE2936A25D00065892 /* Debug */,
+				B5CD41EF2936A25D00065892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD41F02936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD41F12936A25D00065892 /* Debug */,
+				B5CD41F22936A25D00065892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD41F32936A25D00065892 /* Build configuration list for PBXNativeTarget "StretchyTubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD41F42936A25D00065892 /* Debug */,
+				B5CD41F52936A25D00065892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CD41C12936A25C00065892 /* Project object */;
+}
