@@ -18,7 +18,7 @@ class PlayerState: ObservableObject {
 }
 
 struct FullscreenContentView: View {
-    private let player = YouTubePlayer(source: .video(id: "i4GJnpOZmiM"),
+    private let player = YouTubePlayer(source: .video(id: "q5D55G7Ejs8"),
                                        configuration: .init(autoPlay: true))
 
     @Binding
@@ -49,7 +49,7 @@ struct FullscreenContentView: View {
 }
 
 struct ContentView: View {
-    private let player = YouTubePlayer(source: .video(id: "i4GJnpOZmiM"),
+    private let player = YouTubePlayer(source: .video(id: "q5D55G7Ejs8"),
                                        configuration: .init(autoPlay: true))
 
     @State
