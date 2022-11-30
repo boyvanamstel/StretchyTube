@@ -14,6 +14,7 @@
 		B5CD41DE2936A25D00065892 /* StretchyTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41DD2936A25D00065892 /* StretchyTubeTests.swift */; };
 		B5CD41E82936A25D00065892 /* StretchyTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */; };
 		B5CD41EA2936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */; };
+		B5CD41F82936A29B00065892 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5CD41F72936A29B00065892 /* YouTubePlayerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CD41F82936A29B00065892 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = StretchyTube;
+			packageProductDependencies = (
+				B5CD41F72936A29B00065892 /* YouTubePlayerKit */,
+			);
 			productName = StretchyTube;
 			productReference = B5CD41C92936A25D00065892 /* StretchyTube.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +197,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Danger Cove";
 				TargetAttributes = {
 					B5CD41C82936A25C00065892 = {
 						CreatedOnToolsVersion = 14.1;
@@ -215,6 +221,9 @@
 				Base,
 			);
 			mainGroup = B5CD41C02936A25C00065892;
+			packageReferences = (
+				B5CD41F62936A29B00065892 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = B5CD41CA2936A25D00065892 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5CD41F62936A29B00065892 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5CD41F72936A29B00065892 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5CD41F62936A29B00065892 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5CD41C12936A25C00065892 /* Project object */;
 }
