@@ -17,7 +17,9 @@ struct YouTubeView: View {
 
     init(viewModel: YouTubeViewModel) {
         self.viewModel = viewModel
-        self.player = YouTubePlayer(source: .video(id: viewModel.videoId, startSeconds: viewModel.startSeconds),
+        self.player = YouTubePlayer(source: .video(id: viewModel.videoId,
+                                                   startSeconds: viewModel.startSeconds,
+                                                   endSeconds: viewModel.endSeconds),
                                     configuration: .standard)
     }
 

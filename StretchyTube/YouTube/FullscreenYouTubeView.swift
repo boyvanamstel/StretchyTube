@@ -17,7 +17,9 @@ struct FullscreenYouTubeView: View {
     private var isFullscreen: Bool
 
     init(isFullscreen: Binding<Bool>, viewModel: YouTubeViewModel) {
-        self.player = YouTubePlayer(source: .video(id: viewModel.videoId, startSeconds: viewModel.currentSeconds),
+        self.player = YouTubePlayer(source: .video(id: viewModel.videoId,
+                                                   startSeconds: viewModel.currentSeconds,
+                                                   endSeconds: viewModel.endSeconds),
                                     configuration: .standard)
 
         self._isFullscreen = isFullscreen

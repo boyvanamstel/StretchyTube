@@ -11,11 +11,13 @@ import Foundation
 class YouTubeViewModel {
     let videoId: String
     let startSeconds: Int
+    let endSeconds: Int?
     private(set) var currentSeconds: Int?
 
-    init(videoId: String, startSeconds: Int = 0) {
+    init(videoId: String, startSeconds: Int = 0, endSeconds: Int? = nil) {
         self.videoId = videoId
         self.startSeconds = startSeconds
+        self.endSeconds = endSeconds
     }
 
     func seek(to seconds: Int) {
