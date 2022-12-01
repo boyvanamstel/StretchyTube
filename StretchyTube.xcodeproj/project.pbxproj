@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B5CD41CD2936A25D00065892 /* StretchyTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */; };
-		B5CD41CF2936A25D00065892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41CE2936A25D00065892 /* ContentView.swift */; };
+		B5CD41CF2936A25D00065892 /* YouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41CE2936A25D00065892 /* YouTubeView.swift */; };
 		B5CD41D12936A25D00065892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD41D02936A25D00065892 /* Assets.xcassets */; };
 		B5CD41D42936A25D00065892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CD41D32936A25D00065892 /* Preview Assets.xcassets */; };
 		B5CD41DE2936A25D00065892 /* StretchyTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41DD2936A25D00065892 /* StretchyTubeTests.swift */; };
 		B5CD41E82936A25D00065892 /* StretchyTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */; };
 		B5CD41EA2936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */; };
 		B5CD41F82936A29B00065892 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5CD41F72936A29B00065892 /* YouTubePlayerKit */; };
+		B5CD41FA2939425700065892 /* YouTubeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41F92939425700065892 /* YouTubeViewModel.swift */; };
+		B5CD41FD293942E000065892 /* FullscreenYouTubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41FC293942E000065892 /* FullscreenYouTubeView.swift */; };
+		B5CD41FF2939437500065892 /* YouTubePlayer.Configuration+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD41FE2939437500065892 /* YouTubePlayer.Configuration+Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		B5CD41C92936A25D00065892 /* StretchyTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeApp.swift; sourceTree = "<group>"; };
-		B5CD41CE2936A25D00065892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5CD41CE2936A25D00065892 /* YouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeView.swift; sourceTree = "<group>"; };
 		B5CD41D02936A25D00065892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CD41D32936A25D00065892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5CD41D92936A25D00065892 /* StretchyTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +48,9 @@
 		B5CD41E32936A25D00065892 /* StretchyTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StretchyTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CD41E72936A25D00065892 /* StretchyTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeUITests.swift; sourceTree = "<group>"; };
 		B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyTubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5CD41F92939425700065892 /* YouTubeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewModel.swift; sourceTree = "<group>"; };
+		B5CD41FC293942E000065892 /* FullscreenYouTubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenYouTubeView.swift; sourceTree = "<group>"; };
+		B5CD41FE2939437500065892 /* YouTubePlayer.Configuration+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YouTubePlayer.Configuration+Defaults.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,8 @@
 		B5CD41CB2936A25D00065892 /* StretchyTube */ = {
 			isa = PBXGroup;
 			children = (
+				B5CD41FB2939425B00065892 /* YouTube */,
 				B5CD41CC2936A25D00065892 /* StretchyTubeApp.swift */,
-				B5CD41CE2936A25D00065892 /* ContentView.swift */,
 				B5CD41D02936A25D00065892 /* Assets.xcassets */,
 				B5CD41D22936A25D00065892 /* Preview Content */,
 			);
@@ -127,6 +133,17 @@
 				B5CD41E92936A25D00065892 /* StretchyTubeUITestsLaunchTests.swift */,
 			);
 			path = StretchyTubeUITests;
+			sourceTree = "<group>";
+		};
+		B5CD41FB2939425B00065892 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD41F92939425700065892 /* YouTubeViewModel.swift */,
+				B5CD41CE2936A25D00065892 /* YouTubeView.swift */,
+				B5CD41FC293942E000065892 /* FullscreenYouTubeView.swift */,
+				B5CD41FE2939437500065892 /* YouTubePlayer.Configuration+Defaults.swift */,
+			);
+			path = YouTube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CD41CF2936A25D00065892 /* ContentView.swift in Sources */,
+				B5CD41FF2939437500065892 /* YouTubePlayer.Configuration+Defaults.swift in Sources */,
+				B5CD41CF2936A25D00065892 /* YouTubeView.swift in Sources */,
+				B5CD41FD293942E000065892 /* FullscreenYouTubeView.swift in Sources */,
 				B5CD41CD2936A25D00065892 /* StretchyTubeApp.swift in Sources */,
+				B5CD41FA2939425700065892 /* YouTubeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

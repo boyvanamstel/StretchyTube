@@ -11,7 +11,7 @@ import SwiftUI
 struct StretchyTubeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YouTubeView(viewModel: YouTubeViewModel(videoId: "q5D55G7Ejs8"))
         }
     }
 }
